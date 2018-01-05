@@ -132,6 +132,8 @@ struct student citireStudent()
 
 	puts("\nIntroduceti anul nasterii al studentului: ");
 	scanf("%d", &s.an);
+
+	return s;
 }
 
 void afisareStudenti(struct student lista_studenti[3000], int lungime)
