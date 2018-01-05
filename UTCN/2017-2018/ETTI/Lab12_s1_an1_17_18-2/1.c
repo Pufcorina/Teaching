@@ -128,10 +128,10 @@ struct student citireStudent()
 	scanf("%s", s.tara);
 
 	puts("\nIntroduceti grupa studentului: ");
-	scanf("%d", s.grupa);
+	scanf("%d", &s.grupa);
 
 	puts("\nIntroduceti anul nasterii al studentului: ");
-	scanf("%s", s.an);
+	scanf("%d", &s.an);
 }
 
 void afisareStudenti(struct student lista_studenti[3000], int lungime)
